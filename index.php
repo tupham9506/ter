@@ -72,7 +72,7 @@
                       <tr>
                         <th>Command</th>
                         <th>Process ID</th>
-                        <th>Process ID</th>
+                        <th></th>
                       </tr>
                     </thead>
                     <tbody>
@@ -81,6 +81,14 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="card w-100">
+        <div class="card-body">
+          <div class="col-12" id="port-fx">
+            <button type="button" id="open-home-folder" class="btn btn-default mr-5">Mở thư mục home</button>
+            <!-- <button type="button" id="empty-trash-fx" class="btn btn-danger mr-5">Làm trống thùng rác</button> -->
           </div>
         </div>
       </div>

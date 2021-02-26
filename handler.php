@@ -45,6 +45,16 @@
       exit;
     }
 
+    if (isset($_GET['open_home_folder'])) {
+      echo shell_exec('open ../../');
+      exit;
+    }
+
+    // if (isset($_GET['empty_trash'])) {
+    //   shell_exec('rm -rf ~/.Trash/*');
+    //   exit;
+    // }
+
     if (isset($_GET['shutdown'])) {
       shell_exec('sudo shutdown -h now');
       exit;

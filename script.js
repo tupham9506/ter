@@ -61,7 +61,19 @@ $('#kill-all-port').click(function(e){
   request({
     kill_all_port: true
   })
-})
+});
+
+// $('#empty-trash-fx').click(function(e){
+//   request({
+//     empty_trash: true
+//   })
+// });
+
+$('#open-home-folder').click(function(e){
+  request({
+    open_home_folder: true
+  })
+});
 
 // Common function
 function request (data) {
